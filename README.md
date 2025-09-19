@@ -1,12 +1,38 @@
-# React + Vite
+# 🌐 Tumbletech – Official Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Tumbletech main website** repository!  
+This project serves as the digital home for **Tumbletech**, showcasing our services, featured projects, and contact information.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React + Vite + TailwindCSS  
+- **Animations:** Framer Motion  
+- **Backend (Planned):** PHP + Laravel  
+- **Automation Integrations:** n8n, Make.com  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+tumbletech-website/
+│── public/ # Static assets (logos, icons, etc.)
+│── src/
+│ ├── components/ # Reusable UI components
+│ ├── App.jsx # Main application entry
+│ ├── index.css # Tailwind styles
+│ └── main.jsx # React/Vite bootstrap
+│── package.json # Dependencies & scripts
+│── vite.config.js # Vite configuration
+└── README.md # You are here!
+
+
+---
+
+## 🖥️ Development Setup
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<your-username>/tumbletech-website.git
+   cd tumbletech-website
