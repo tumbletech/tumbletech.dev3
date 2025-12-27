@@ -25,6 +25,19 @@ function SiteNav() {
           <li><a href="#services" className="hover:text-cyan-200">Services</a></li>
           <li><a href="#projects" className="hover:text-cyan-200">Featured Projects</a></li>
           <li><a href="#contact" className="hover:text-cyan-200">Contact Us</a></li>
+          <li>
+            <a
+              href="/Tumbletech-Origins-2025-Brochure.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-cyan-200"
+              title="Download the brochure"
+            >
+              Tumbletech Origins 2025 Brochure
+            </a>
+          </li>
+
         </ul>
       </nav>
     </header>
